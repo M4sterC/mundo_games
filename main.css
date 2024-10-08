@@ -1,0 +1,108 @@
+body {
+    font-family: Roboto, sans-serif,
+}
+
+.navbar {
+    background-color: #888484;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #888484;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.navPublicacoes .nav-link.active:hover {
+    color: #888484 ;
+}
+
+.navbar-toggler {
+    background-color: #c2c1c1;
+
+}
+
+.carousel-item img {
+    max-height: 624px;
+}
+
+.sectionTitle {
+    font-family: Pacifico,cursive;
+}
+
+
+#sobreEmpresa .sectionTitle span,
+#nossasPublicacoes .sectionTitle span{
+    color: #f5f3f3;
+}
+
+.sectionTitle span {
+    color: #888484;
+}
+
+#sobreEmpresa,
+#nossasPublicacoes {
+    background-color: #c2c1c1 ;
+}
+
+.textColored {
+    color: #888484;
+}
+
+.navPublicacoes .nav-link.active,
+#nossasPublicacoes .col-md-3 button  {
+    background-color: #fff;
+    color: #888484;
+}
+
+.navPublicacoes .nav-link:hover {
+    color:#888484 ;
+}
+
+.socialLinks li{
+    list-style: none;
+    display: inline;
+}
+
+.socialLinks li a {
+    text-decoration: none;
+}
+
+.sobre img {
+    height: 400px;
+}
+
+section#quemSomos img {
+    height: 322px;
+}
+
+#nossasPublicacoes .col-md-3 img {
+    height: 160px;
+}
+
+#contatos button {
+    background-color:#888484;
+    color: #fff ;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 24px;
+    color: #fff;
+    background-color: #888484;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+
+    
+}
